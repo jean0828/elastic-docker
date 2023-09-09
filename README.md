@@ -7,7 +7,8 @@ This docker compose file deploys:
 - logstash
 - metricbeat
 
-  To deploy just run the following command:
+To deploy just run the following command:
+
   ```docker compose up```
 
 
