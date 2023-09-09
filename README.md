@@ -8,7 +8,6 @@ This docker compose file deploys:
 - metricbeat
 
   To deploy just run the following command:
-  ```
-docker compose up
-  ```
+  ```docker compose up
+
 
