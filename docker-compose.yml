@@ -164,6 +164,7 @@ services:
      kibana:
        condition: service_healthy
    image: docker.elastic.co/logstash/logstash:${STACK_VERSION}
+   command: bash -c "bin/logstash-plugin install logstash-filter-tld"
    labels:
      co.elastic.logs/module: logstash
    user: root
